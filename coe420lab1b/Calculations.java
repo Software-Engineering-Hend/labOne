@@ -18,10 +18,11 @@ public class Calculations {
 		
 		//member_C add the feature of dividing x by y and print the result
 		int quotient = x/y;
+		System.out.print("The answer is=" +  quotient);
 		//member_D add the feature of multiplying x by y and print the result
 		
 		int mult = x*y;
-		System.out.print("The anser is= "+ mult);
+		System.out.print("The answer is= "+ mult);
 		
 		//Exercise 5: Spot the issues to be reported
 		addition(4,5); // should print the sum of the values provided
