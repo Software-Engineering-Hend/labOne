@@ -20,7 +20,8 @@ public class Calculations {
 		
 		//member_D add the feature of multiplying x by y and print the result
 		
-		
+		int mult = x*y;
+		System.out.print("The anser is= "+ mult);
 		
 		//Exercise 5: Spot the issues to be reported
 		addition(4,5); // should print the sum of the values provided
@@ -29,6 +30,11 @@ public class Calculations {
 	
 	public static int addition(int w, int z) {
 		int sum = w - z;
+		return sum; 
+	}
+
+	public static int multiply(int w, int z) {
+		int sum = w * z;
 		return sum; 
 	}
 	
